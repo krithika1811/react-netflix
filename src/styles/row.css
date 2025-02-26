@@ -1,0 +1,84 @@
+.row {
+    margin-left: 20px;
+    color: white;
+  }
+  
+  .row h2 {
+    margin-left: 20px;
+  }
+  
+  .row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+  }
+  
+  .row_posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .row_poster {
+    max-height: 250px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+  }
+  
+  .row_poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  
+  .row_posterLarge {
+    max-height: 250px;
+  }
+  
+  .row_posters a {
+    text-decoration: none;
+  }
+  
+  /* For small screens (mobile) */
+/* @media (max-width: 768px) {
+  .row h2 {
+    font-size: 1.2rem;
+  }
+
+  .row_poster {
+    max-height: 80px;
+  }
+
+  .row_posterLarge {
+    max-height: 200px;
+  }
+} */
+
+/* For very small screens (extra small devices) */
+/* @media (max-width: 480px) {
+  .row_posters {
+    gap: 5px; /* Reduce space between posters */
+  /* }
+
+  .row_poster {
+    max-height: 70px;
+  }
+
+  .row_posterLarge {
+    max-height: 150px;
+  }
+} */ 
+
+/* For large screens (desktops) */
+/* @media (min-width: 1200px) {
+  .row h2 {
+    font-size: 2rem;
+  }
+
+  .row_poster {
+    max-height: 120px;
+  }
+
+  .row_posterLarge {
+    max-height: 300px;
+  }
+} */

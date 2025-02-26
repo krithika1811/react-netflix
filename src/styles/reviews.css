@@ -1,0 +1,17 @@
+.reviews {
+    margin: 20px;
+    color: white;
+  }
+  
+  .review {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .review h4 {
+    margin-bottom: 5px;
+    color: #e50914;
+  }
+  

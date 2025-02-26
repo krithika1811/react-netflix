@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #111;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar_logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  
+  .navbar_avatar {
+    width: 30px;
+  }
+  
